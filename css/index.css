@@ -1,0 +1,91 @@
+img { 
+    max-width:100%; 
+    height:auto; 
+}
+
+/* .logo_pic{
+    width: 30%;
+} */
+
+/* .schedule {
+    text-align: center;
+}
+
+.date {
+    font-size: 1cm;
+}
+
+.detail {
+    text-align: center;
+}
+
+.message {
+    text-align: center;
+    background-color: #FFC0CB;
+    font-weight: bold;
+    border-style: double;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.salon {
+    width: 100%;
+} */
+
+
+
+
+.logo {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .how_to_look {
+    width: 100%;
+} */
+
+.ichirann {
+    width: 100%;
+}
+
+.exhibitor {
+    overflow: hidden;
+    margin-bottom: 3px;
+}
+
+/* .format_part {
+    width: 320px;
+} */
+
+.format {
+    width: 82%;
+    float: left;
+}
+
+.bottom_part {
+    width: 17%;
+    float: right;
+    margin-left: 3px;
+}
+
+.zoom {
+    width: 92%;
+    /* height: 72px; */
+
+}
+
+.hp {
+    width: 92%;
+    /* height: 72px; */
+}
