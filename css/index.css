@@ -3,34 +3,7 @@ img {
     height:auto; 
 }
 
-/* .logo_pic{
-    width: 30%;
-} */
 
-/* .schedule {
-    text-align: center;
-}
-
-.date {
-    font-size: 1cm;
-}
-
-.detail {
-    text-align: center;
-}
-
-.message {
-    text-align: center;
-    background-color: #FFC0CB;
-    font-weight: bold;
-    border-style: double;
-    margin-top: 5px;
-    margin-bottom: 15px;
-}
-
-.salon {
-    width: 100%;
-} */
 
 
 
@@ -39,53 +12,85 @@ img {
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* .how_to_look {
-    width: 100%;
-} */
-
-.ichirann {
+.mainview {
     width: 100%;
 }
 
-.exhibitor {
+.title {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.part_of_level01 {
+    width: 100%;
+}
+
+.level01 {
+    width: 100%;
+}
+
+.part_of_button {
+    width: 100%;
+}
+
+.button01 {
+    width: 25%;
+    margin-left: 10%;
+}
+
+.button02 {
+    width: 25%;
+    margin-left: 2%;
+}
+
+.button03 {
+    width: 25%;
+    margin-left: 2%;
+}
+
+.part_of_lead {
+    width: 100%;
     overflow: hidden;
-    margin-bottom: 3px;
 }
 
-/* .format_part {
-    width: 320px;
-} */
-
-.format {
-    width: 82%;
+.first {
+    width: 25%;
+    margin-left: 10%;
+    font-size: xx-small;
     float: left;
 }
 
-.bottom_part {
-    width: 17%;
-    float: right;
-    margin-left: 3px;
+.second {
+    width: 25%;
+    margin-left: 4%;
+    font-size: xx-small;
+    float: left;
 }
 
-.zoom {
-    width: 92%;
-    /* height: 72px; */
-
+.third {
+    width: 25%;
+    margin-left: 4%;
+    font-size: xx-small;
+    float: left;
 }
 
-.hp {
-    width: 92%;
-    /* height: 72px; */
+.message {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.level02 {
+    width: 100%;
+}
+
+.level03 {
+    width: 100%;
+}
+
+.last_message {
+    width: 100%;
+}
+
+.back_button {
+    width: 100%;
 }
