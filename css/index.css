@@ -31,6 +31,10 @@ a {
     width: 100%;
 }
 
+.recommended_items {
+    width: 100%;
+}
+
 .part_of_button {
     width: 100%;
 }
@@ -102,3 +106,27 @@ a {
 .back_button {
     width: 100%;
 }
+
+
+
+
+
+
+/* .part_of_click_button {
+    width: 100%;
+}
+
+.click1 {
+    width: 8%;
+    margin-left: 19%;
+}
+
+.click2 {
+    width: 8%;
+    margin-left: 19%;
+}
+
+.click3 {
+    width: 8%;
+    margin-left: 19%;
+} */
