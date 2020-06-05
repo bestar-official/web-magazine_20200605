@@ -3,7 +3,9 @@ img {
     height:auto; 
 }
 
-
+a {
+    text-decoration: none;
+}
 
 
 
@@ -56,22 +58,28 @@ img {
 .first {
     width: 25%;
     margin-left: 10%;
-    font-size: xx-small;
+    font-size: 5%;
     float: left;
+    font-family: "ＭＳ ゴシック",sans-serif; 
+    line-height: 14px;
 }
 
 .second {
     width: 25%;
     margin-left: 4%;
-    font-size: xx-small;
+    font-size: 5%;
     float: left;
+    font-family: "ＭＳ ゴシック",sans-serif; 
+    line-height: 14px;
 }
 
 .third {
     width: 25%;
     margin-left: 4%;
-    font-size: xx-small;
+    font-size: 5%;
     float: left;
+    font-family: "ＭＳ ゴシック",sans-serif; 
+    line-height: 14px;
 }
 
 .message {
