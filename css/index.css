@@ -112,21 +112,202 @@ a {
 
 
 
-/* .part_of_click_button {
-    width: 100%;
+
+
+/* .title {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(40px);
+    transition: all 1s;
 }
 
-.click1 {
-    width: 8%;
-    margin-left: 19%;
-}
-
-.click2 {
-    width: 8%;
-    margin-left: 19%;
-}
-
-.click3 {
-    width: 8%;
-    margin-left: 19%;
+.title.is-slow {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
 } */
+
+
+
+
+
+
+/*ヘッダーまわりはサイトに合わせて調整してください*/
+header {
+    padding:5px;
+    background: white;
+    overflow: hidden;
+  }
+  
+  #nav-drawer {
+    position: relative;
+    padding-left: 5px;
+    width: 10%;
+    float: left;
+    margin-top: 5px;
+  }
+
+  .logo {
+    margin-left: 23%;
+    width: 35%;
+    float: left;
+  }
+  
+  /*チェックボックス等は非表示に*/
+  .nav-unshown {
+    display:none;
+  }
+  
+  /*アイコンのスペース*/
+  #nav-open {
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+    vertical-align: middle;
+  }
+  
+  /*ハンバーガーアイコンをCSSだけで表現*/
+  #nav-open span, #nav-open span:before, #nav-open span:after {
+    position: absolute;
+    height: 3px;/*線の太さ*/
+    width: 25px;/*長さ*/
+    border-radius: 3px;
+    background: #555;
+    display: block;
+    content: '';
+    cursor: pointer;
+  }
+  #nav-open span:before {
+    bottom: -8px;
+  }
+  #nav-open span:after {
+    bottom: -16px;
+  }
+  
+  /*閉じる用の薄黒カバー*/
+  #nav-close {
+    display: none;/*はじめは隠しておく*/
+    position: fixed;
+    z-index: 99;
+    top: 0;/*全体に広がるように*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    transition: .3s ease-in-out;
+  }
+  
+  /*中身*/
+  #nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;/*最前面に*/
+    width: 50%;/*右側に隙間を作る（閉じるカバーを表示）*/
+    max-width: 330px;/*最大幅（調整してください）*/
+    height: 100%;
+    background: white;/*背景色*/
+    transition: .3s ease-in-out;/*滑らかに表示*/
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);/*左に隠しておく*/
+  }
+  
+  /*チェックが入ったらもろもろ表示*/
+  #nav-input:checked ~ #nav-close {
+    display: block;/*カバーを表示*/
+    opacity: .5;
+  }
+  
+  #nav-input:checked ~ #nav-content {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);/*中身を表示（右へスライド）*/
+    box-shadow: 6px 0 25px rgba(0,0,0,.15);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background-color: pink;
+    transition: width .2s;
+  }
+  
+  .menu--isOpen {
+    width: 40vw;
+  }
+  
+  .menu__button {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(200, 200, 230, .7);
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .menu span {
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 4px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc((100% - 4px)/2);
+    border-radius: 3px;
+    transition: .2s;
+  }
+  
+  .menu__lineTop {
+    transform: translateY(-10px);
+  }
+  
+  .menu__lineMiddle {}
+  
+  .menu__lineBottom {
+    transform: translateY(10px);
+  }
+  
+  .menu--isOpen .menu__lineTop {
+    transform: rotate(45deg);  
+  }
+  
+  .menu--isOpen .menu__lineMiddle {
+    opacity: 0;
+  }
+  
+  .menu--isOpen .menu__lineBottom {
+    transform: rotate(-45deg);  
+  } */
+
+
+
+
+  .hamburger {
+    font-family: 'Noto Serif JP', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+  }
